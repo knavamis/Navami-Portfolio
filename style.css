@@ -58,7 +58,7 @@ section h2{
     margin-bottom: 20px;
 }
 section p{
-    font-size: 18px;
+    font-size: 19px;
     line-height: 1.7;
 }
 #education h4{
@@ -72,6 +72,7 @@ a{
 }
 section li{
     margin-bottom:12px;
+    font: size 18px;
 }
 #projects div{
     padding: 15px;
@@ -145,4 +146,15 @@ html{
 }
 #certifications li{
     font-size: 17px;
+}
+#home img{
+    width: 160px;
+    height: 160px;
+    border-radius: 50%;
+    object-fit: cover;
+    object-position:center 35%;
+    margin-bottom: 20px;
+}
+#resume a{
+    font-size: 18px;
 }
