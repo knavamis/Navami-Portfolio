@@ -1,0 +1,148 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+section{
+    padding: 20px;
+    margin-bottom: 15px;
+}
+body{
+    font-family:'Times New Roman', Times, serif;
+    background-color:#d5bdaf ;
+    color: #3e3232;
+    padding-top: 80px;
+}
+ul{
+    padding-left: 25px;
+}
+#home{
+    background-color: #a98467;
+    text-align: center;
+    padding: 80px 30px;
+    min-height: 70vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#home h2{
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+#home p:first-of-type{
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+#home p:last-of-type{
+    font-size: 20px;
+    margin-top: 5px;
+    margin-bottom: 10px;;
+}
+section:not(#home){
+    background-color: #3e3232;
+    color: rgb(175, 163, 141);
+    border-radius:10px ;
+    margin: 20px auto;
+    max-width: 900px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+    padding: 30px;
+    transition: transform 0.3s;
+}
+section:not(#home):hover{
+    transform: translateY(-5px);
+}
+section h2{
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+section p{
+    font-size: 18px;
+    line-height: 1.7;
+}
+#education h4{
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+a{
+    text-decoration: none;
+    margin-right: 20px;
+    color: #b8b0ab;
+}
+section li{
+    margin-bottom:12px;
+}
+#projects div{
+    padding: 15px;
+    margin-top: 15px;
+}
+#projects h3{
+    font-size: 22px;
+    margin-bottom: 10px;
+}
+#navbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 70px;
+    padding: 18px 60px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;    
+}
+#navbar a{
+    color: #3e3232;
+    text-decoration: none;
+    font-weight: bold;
+}
+#navbar a:hover{
+    text-decoration: underline;
+}
+@media (max-width:600px){
+    #navbar{
+        gap: 12px;
+        padding: 15px;
+        padding-right: 15px;
+    }
+    #navbar a{
+        font-size: 14px;
+    }
+    #home{
+        width: 100%;
+        padding: 60px 20px;   
+    }
+    #home h2 {
+    font-size: 28px;
+}
+
+#home p:first-of-type {
+    font-size: 22px;
+}
+
+#home p:last-of-type {
+    font-size: 17px;
+}
+section:not(#home){
+    width: calc(100% - 30px);
+    padding: 25px 20px;
+}
+}
+#contact a {
+    display: inline-block;
+    margin-top: 10px;
+    margin-right: 25px;
+}
+#contact p{
+    margin-bottom: 10px;
+}
+#contact a:hover{
+    text-decoration: underline;
+}
+html{
+    scroll-behavior: smooth;
+}
+#certifications li{
+    font-size: 17px;
+}
